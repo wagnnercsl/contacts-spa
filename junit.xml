@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="5" failures="1" time="11.795">
+  <testsuite name="Contacts APP" errors="0" failures="1" skipped="0" timestamp="2020-05-29T01:59:12" time="10.627" tests="5">
+    <testcase classname="Contacts APP Should render APP" name="Contacts APP Should render APP" time="0.114">
+    </testcase>
+    <testcase classname="Contacts APP Should render Contact component" name="Contacts APP Should render Contact component" time="0.022">
+      <failure>Error: expect(element).toHaveTextContent()
+
+Expected element to have text content:
+  08/04/2019
+Received:
+  2019-04-08
+    at Object.&lt;anonymous&gt; (C:\Users\Wagnner\codenation\react-14\src\__tests__\submit.test.js:49:18)
+    at Object.asyncJestTest (C:\Users\Wagnner\codenation\react-14\node_modules\jest-jasmine2\build\jasmineAsyncInstall.js:102:37)
+    at C:\Users\Wagnner\codenation\react-14\node_modules\jest-jasmine2\build\queueRunner.js:43:12
+    at new Promise (&lt;anonymous&gt;)
+    at mapper (C:\Users\Wagnner\codenation\react-14\node_modules\jest-jasmine2\build\queueRunner.js:26:19)
+    at C:\Users\Wagnner\codenation\react-14\node_modules\jest-jasmine2\build\queueRunner.js:73:41</failure>
+    </testcase>
+    <testcase classname="Contacts APP Should render Contacts component" name="Contacts APP Should render Contacts component" time="0.006">
+    </testcase>
+    <testcase classname="Contacts APP Should render Filters component" name="Contacts APP Should render Filters component" time="0.009">
+    </testcase>
+    <testcase classname="Contacts APP Should render Topbar component" name="Contacts APP Should render Topbar component" time="0.004">
+    </testcase>
+  </testsuite>
+</testsuites>
